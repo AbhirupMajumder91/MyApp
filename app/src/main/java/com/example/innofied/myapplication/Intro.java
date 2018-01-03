@@ -29,7 +29,7 @@ public class Intro extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String res=binding.sample.getText().toString();
-                Toast.makeText(getApplicationContext(),""+res,Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),""+res+"helllloooooooo",Toast.LENGTH_SHORT).show();
             }
         });
 
